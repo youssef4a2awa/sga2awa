@@ -1,0 +1,284 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "evobot"
+      version: "0.7.0"
+      description: "Discord music bot built with discord.js"
+      main: "index.js"
+      author: 
+        name: "Erit Islami"
+        email: "eritislami@gmail.com"
+      private: true
+      homepage: "https://github.com/eritislami/evobot"
+      repository: 
+        type: "git"
+        url: "git+https://github.com/eritislami/evobot.git"
+      bugs: 
+        url: "https://github.com/eritislami/evobot/issues"
+      engines: 
+        node: ">=12.0.0"
+      dependencies: 
+        @discordjs/opus: "^0.5.0"
+        discord.js: "^12.5.3"
+        ffmpeg-static: "^4.3.0"
+        lyrics-finder: "^21.7.0"
+        simple-youtube-api: "^5.2.1"
+        soundcloud-downloader: "^1.0.0"
+        string-progressbar: "^1.0.4"
+        ytdl-core: "^4.8.2"
+        ytdl-core-discord: "^1.2.5"
+        moment: "^2.29.1"
+        express: "^4.17.1"
+        fs: "^0.0.2"
+        canvas: "^2.8.0"
+        jimp: "^0.16.1"
+        canvas-prebuilt: "^1.6.11"
+        canvas-node: "^0.3.23"
+        opusscript: "^0.0.8"
+        node-opus: "^0.3.3"
+        pretty: "^2.0.0"
+        build-purescript: "^0.4.1"
+        events: "^3.3.0"
+        genius-lyrics: "^4.2.9"
+        request-promise-native: "^1.0.9"
+        request: "^2.88.2"
+        request-promise: "^4.2.6"
+        np: "^7.5.0"
+        @cognistreamer/np: "^v7.5.0"
+        ergytdl: "^1.0.0"
+      scripts: 
+        start: "node index.js"
+      readme: "## 🚀 Getting Started\n\n```\ngit clone https://github.com/eritislami/evobot.git\ncd evobot\nnpm install\n```\n\nAfter installation finishes you can use `node index.js` to start the bot.\n\n## ⚙️ Configuration\n\nCopy or Rename `config.json.example` to `config.json` and fill out the values:\n\n⚠️ **Note: Never commit or share your token or api keys publicly** ⚠️\n\n```json\n{\n  \"TOKEN\": \"\",\n  \"YOUTUBE_API_KEY\": \"\",\n  \"SOUNDCLOUD_CLIENT_ID\": \"\",\n  \"MAX_PLAYLIST_SIZE\": 10,\n  \"PREFIX\": \"/\",\n  \"PRUNING\": false\n}\n```\n\n## 📝 Features & Commands\n\n> Note: The default prefix is '/'\n\n* 🎶 Play music from YouTube via url\n\n`/play https://www.youtube.com/watch?v=GLvohMXgcBo`\n\n* 🔎 Play music from YouTube via search query\n\n`/play under the bridge red hot chili peppers`\n\n* 🎶 Play music from Soundcloud via url\n\n`/play https://soundcloud.com/blackhorsebrigade/pearl-jam-alive`\n\n* 🔎 Search and select music to play\n\n`/search Pearl Jam`\n\n* 📃 Play youtube playlists via url\n\n`/playlist https://www.youtube.com/watch?v=YlUKcNNmywk&list=PL5RNCwK3GIO13SR_o57bGJCEmqFAwq82c`\n\n* 🔎 Play youtube playlists via search query\n\n`/playlist linkin park meteora`\n* Now Playing (/np)\n* Queue system (/queue, /q)\n* Loop / Repeat (/loop)\n* Shuffle (/shuffle)\n* Volume control (/volume, /v)\n* Lyircs (/lyrics, /ly)\n* Pause (/pause)\n* Resume (/resume, /r)\n* Skip (/skip, /s)\n* Skip to song # in queue (/skipto, /st)\n* Toggle pruning of bot messages (/pruning)\n* Help (/help, /h)\n* Command Handler from [discordjs.guide](https://discordjs.guide/)\n* Media Controls via Reactions\n![reactions](https://i.imgur.com/j7CevsH.png)\n\n## 🤝 Contributing\n\n1. [Fork the repository](https://github.com/eritislami/evobot/fork)\n2. Clone your fork: `git clone https://github.com/your-username/evobot.git`\n3. Create your feature branch: `git checkout -b my-new-feature`\n4. Commit your changes: `git commit -am 'Add some feature'`\n5. Push to the branch: `git push origin my-new-feature`\n6. Submit a pull request\n\n## 📝 Credits\n\n[@iCrawl](https://github.com/iCrawl) For the queue system used in this application which was adapted from [@iCrawl/discord-music-bot](https://github.com/iCrawl/discord-music-bot)\n"
+      readmeFilename: "README.md"
+      gitHead: "f7df8bcc1897a225a1691e0ffc82fdd7da5c15e8"
+      _id: "evobot@0.7.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@discordjs/opus/0.5.0"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/12.5.3"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ffmpeg-static/4.3.0"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lyrics-finder/21.7.0"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/simple-youtube-api/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/soundcloud-downloader/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/string-progressbar/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ytdl-core/4.8.2"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ytdl-core-discord/1.3.0"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.29.1"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.2"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/canvas/2.8.0"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/jimp/0.16.1"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/canvas-prebuilt/1.6.11"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/canvas-node/0.3.23"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/opusscript/0.0.8"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:deprecation: 
+    deprecated: "This project is unmaintained. See @discordjs/opus for an alternative."
+    depth: 0
+    pkgId: "registry.npmjs.org/node-opus/0.3.3"
+    pkgName: "node-opus"
+    pkgVersion: "0.3.3"
+    prefix: "/app"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-opus/0.3.3"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/pretty/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/build-purescript/0.4.1"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/events/3.3.0"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/genius-lyrics/4.2.9"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:deprecation: 
+    deprecated: "request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142"
+    depth: 0
+    pkgId: "registry.npmjs.org/request-promise-native/1.0.9"
+    pkgName: "request-promise-native"
+    pkgVersion: "1.0.9"
+    prefix: "/app"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/request-promise-native/1.0.9"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:deprecation: 
+    deprecated: "request has been deprecated, see https://github.com/request/request/issues/3142"
+    depth: 0
+    pkgId: "registry.npmjs.org/request/2.88.2"
+    pkgName: "request"
+    pkgVersion: "2.88.2"
+    prefix: "/app"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/request/2.88.2"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:deprecation: 
+    deprecated: "request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142"
+    depth: 0
+    pkgId: "registry.npmjs.org/request-promise/4.2.6"
+    pkgName: "request-promise"
+    pkgVersion: "4.2.6"
+    prefix: "/app"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/request-promise/4.2.6"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/np/7.5.0"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ergytdl/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  35 error pnpm: 
+    message: "No matching version found for @cognistreamer/np@>=7.5.0 <8.0.0"
+    code: "ERR_PNPM_NO_MATCHING_VERSION"
+    packageMeta: 
+      name: "@cognistreamer/np"
+      dist-tags: 
+        latest: "2.21.0-1"
+      versions: 
+        2.21.0-0: 
+          name: "@cognistreamer/np"
+          version: "2.21.0-0"
+          dependencies: 
+            any-observable: "^0.2.0"
+            chalk: "^2.3.0"
+            del: "^3.0.0"
+            execa: "^0.8.0"
+            github-url-from-git: "^1.5.0"
+            has-yarn: "^1.0.0"
+            hyperlinker: "^1.0.0"
+            inquirer: "^3.0.6"
+            issue-regex: "^1.0.0"
+            listr: "^0.12.0"
+            listr-input: "^0.1.1"
+            log-symbols: "^2.1.0"
+            meow: "^4.0.0"
+            p-timeout: "^2.0.1"
+            read-pkg-up: "^3.0.0"
+            rxjs: "5.4.3"
+            semver: "^5.2.0"
+            split: "^1.0.0"
+            stream-to-observable: "^0.2.0"
+            supports-hyperlinks: "^1.0.1"
+            update-notifier: "^2.1.0"
+          devDependencies: 
+            ava: "*"
+            xo: "*"
+          bin: 
+            np: "cli.js"
+          dist: 
+            shasum: "29f93e5d8ca8e84107d38b1135c4247a82f857b8"
+            tarball: "https://registry.npmjs.org/@cognistreamer/np/-/np-2.21.0-0.tgz"
+            fileCount: 15
+            unpackedSize: 28019
+          engines: 
+            node: ">=4"
+        2.21.0-1: 
+          name: "@cognistreamer/np"
+          version: "2.21.0-1"
+          dependencies: 
+            any-observable: "^0.2.0"
+            chalk: "^2.3.0"
+            del: "^3.0.0"
+            execa: "^0.8.0"
+            github-url-from-git: "^1.5.0"
+            has-yarn: "^1.0.0"
+            hyperlinker: "^1.0.0"
+            inquirer: "^3.0.6"
+            issue-regex: "^1.0.0"
+            listr: "^0.12.0"
+            listr-input: "^0.1.1"
+            log-symbols: "^2.1.0"
+            meow: "^4.0.0"
+            p-timeout: "^2.0.1"
+            read-pkg-up: "^3.0.0"
+            rxjs: "5.4.3"
+            semver: "^5.2.0"
+            split: "^1.0.0"
+            stream-to-observable: "^0.2.0"
+            supports-hyperlinks: "^1.0.1"
+            update-notifier: "^2.1.0"
+          devDependencies: 
+            ava: "*"
+            xo: "*"
+          bin: 
+            np: "cli.js"
+          dist: 
+            shasum: "0420203304dc2d0c348a54187daed5c90bc5a206"
+            tarball: "https://registry.npmjs.org/@cognistreamer/np/-/np-2.21.0-1.tgz"
+            fileCount: 15
+            unpackedSize: 28020
+          engines: 
+            node: ">=4"
+      modified: "2018-02-27T11:58:43.601Z"
+      cachedAt: 1623279456742
